@@ -1,32 +1,32 @@
 ---
 test-cases:
-  - summary: |
+- summary: |
     Проверка возможности искать товары по ключевому слову 
-- status: pass
+status: pass
 
 - summary: |
     Проверка возможности искать товары по категории 
-- status: pass
+status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по их производителю 
-- status: pass
+status: pass
 
 - summary: |
     Проверка возможности фильтровать товары по ценовому диапазону
-- status: pass
+status: pass
 
 - summary: |
     Проверка возможности просмотра товара и подробной информации о товаре
-- status: pass
+status: pass
 
 - summary: |
     Проверка возможности добавлять товары в корзину и просматривать содержимое корзины
-- status: pass
+status: pass
 
 - summary: |
     Проверка возможности оплаты после оформлением заказа пользователем  
-- status: fail
+status: fail
 
 bugreports:
 - summary: |
