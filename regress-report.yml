@@ -103,14 +103,14 @@ bugreports:
     actual-result: |
       На странице отобразились некоторые товары, которые не входят в указанный ценовой диапазон      
 
-- summary: |
+  - summary: |
       Проверка корректной работы чек бокса "In Stock"
-  environment: |
+    environment: |
       Yandex Browser 24.4.1.899 (64-bit)
       OC Windows 10 22H2
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Отметить и снять галочку в чек боксе "In Stock"
-  expected-result: |
+    expected-result: |
       При нажатии галочки высвечиваются товары в наличии, при снятии галочки высвечиваются либо товары не в наличии, либо ничего
-  actual-result: |
+    actual-result: |
       При снятии галочки остались же товары, которые были в наличии до этого        
