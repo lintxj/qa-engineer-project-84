@@ -83,3 +83,7 @@
 - summary: |
     Проверка безопасности соединения сайта
   status: pass
+
+- summary: |
+    Проверка работы кнопки "Hexlet Store"
+  status: fail
