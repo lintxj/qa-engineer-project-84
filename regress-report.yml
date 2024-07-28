@@ -1,91 +1,91 @@
 ---
-test-cases:
-  - summary: |
+test-cases: 
+- summary: |
       Корректное отображение сайта на русском языке
     status: pass
 
-  - summary: |
+- summary: |
       Корректное отображение сайта на английском языке
     status: pass
 
-  - summary: |
+- summary: |
       Успешный поиск товара по категории
     status: pass
 
-  - summary: |
+- summary: |
       Успешный поиск товара по ключевому слову на русском языке
     status: fail
 
-  - summary: |
+- summary: |
       Успешный поиск товара по ключевому слову на английском языке
     status: pass
 
-  - summary: |
+- summary: |
       Проверка возможности фильтровать товары по их ценовому диапазону
     status: fail
 
-  - summary: |
+- summary: |
       Проверка работы фильтра ценового диапазона при отрицательных значениях
     status: pass
 
-  - summary: |
+- summary: |
       Корректная работа фильтра товаров
     status: pass
 
-  - summary: |
+- summary: |
       Проверка наличия описания товара в его карточке
     status: pass
 
-  - summary: |
+- summary: |
       Проверка корректной работы чек бокса "In Stock"
     status: fail
 
-  - summary: |
+- summary: |
       Проверка наличия формы для ввода данных пользователя 
     status: pass
 
-  - summary: |
+- summary: |
       Проверка успешного добавления товара в корзину 
     status: pass   
 
-  - summary: |
+- summary: |
       Проверка успешного удаления товара из корзины 
     status: fail 
 
-  - summary: |
+- summary: |
       Проверка возможности закрыть всплывающее окно "Заказ успешно оформлен" через
     крестик  
     status: fail    
 
-  - summary: |
+- summary: |
       Проверка совместимости сайта с последней версией Google Chrome
     status: pass
 
-  - summary: |
+- summary: |
       Проверка совместимости сайта с последней версией браузера Opera
     status: pass
 
-  - summary: |
+- summary: |
     Проверка совместимости сайта с последней версией браузера Safari
   status: fail  
 
-  - summary: |
+- summary: |
     Проверка адаптивности сайта под устройства с разным разрешением экрана
   status: fail  
 
-  - summary: |
+- summary: |
     Проверка отсутствия ошибок при загрузке сайта
   status: fail  
 
-  - summary: |
+- summary: |
     Проверка корректной работы сайта при навигации по страницам каталога
   status: fail
 
-  - summary: |
+- summary: |
     Проверка безопасности соединения сайта
   status: pass  
 
-  - summary: |
+- summary: |
     Проверка работы кнопки "Hexlet Store"
   status: pass  
     
