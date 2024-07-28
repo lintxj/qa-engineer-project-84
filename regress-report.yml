@@ -2,51 +2,51 @@
 test-cases: 
 - summary: |
       Корректное отображение сайта на русском языке
-    status: pass
+  status: pass
 
 - summary: |
       Корректное отображение сайта на английском языке
-    status: pass
+  status: pass
 
 - summary: |
       Успешный поиск товара по категории
-    status: pass
+  status: pass
 
 - summary: |
       Успешный поиск товара по ключевому слову на русском языке
-    status: fail
+  status: fail
 
 - summary: |
       Успешный поиск товара по ключевому слову на английском языке
-    status: pass
+  status: pass
 
 - summary: |
       Проверка возможности фильтровать товары по их ценовому диапазону
-    status: fail
+  status: fail
 
 - summary: |
       Проверка работы фильтра ценового диапазона при отрицательных значениях
-    status: pass
+  status: pass
 
 - summary: |
       Корректная работа фильтра товаров
-    status: pass
+  status: pass
 
 - summary: |
       Проверка наличия описания товара в его карточке
-    status: pass
+  status: pass
 
 - summary: |
       Проверка корректной работы чек бокса "In Stock"
-    status: fail
+  status: fail
 
 - summary: |
       Проверка наличия формы для ввода данных пользователя 
-    status: pass
+  status: pass
 
 - summary: |
       Проверка успешного добавления товара в корзину 
-    status: pass   
+  status: pass   
 
 - summary: |
       Проверка успешного удаления товара из корзины 
@@ -55,15 +55,15 @@ test-cases:
 - summary: |
       Проверка возможности закрыть всплывающее окно "Заказ успешно оформлен" через
     крестик  
-    status: fail    
+  status: fail    
 
 - summary: |
       Проверка совместимости сайта с последней версией Google Chrome
-    status: pass
+  status: pass
 
 - summary: |
       Проверка совместимости сайта с последней версией браузера Opera
-    status: pass
+  status: pass
 
 - summary: |
     Проверка совместимости сайта с последней версией браузера Safari
@@ -105,12 +105,12 @@ bugreports:
 
 - summary: |
       Проверка корректной работы чек бокса "In Stock"
-    environment: |
+  environment: |
       Yandex Browser 24.4.1.899 (64-bit)
       OC Windows 10 22H2
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Отметить и снять галочку в чек боксе "In Stock"
-    expected-result: |
+  expected-result: |
       При нажатии галочки высвечиваются товары в наличии, при снятии галочки высвечиваются либо товары не в наличии, либо ничего
-    actual-result: |
+  actual-result: |
       При снятии галочки остались же товары, которые были в наличии до этого        
