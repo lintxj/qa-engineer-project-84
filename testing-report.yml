@@ -91,3 +91,7 @@
 - summary: |
     Проверка работы кнопки "Hexlet Store"
   status: fail
+
+- summary: |
+    Проверка отправки запроса на сервер при оформлении заказа
+  status: fail  
