@@ -115,26 +115,26 @@ bugreports:
         
 - summary: |
       Проверка корректной работы чек бокса "In Stock"
-    environment: |
+  environment: |
       Yandex Browser 24.4.1.899 (64-bit)
       OC Windows 10 22H2
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Отметить и снять галочку в чек боксе "In Stock"
-    expected-result: |
+  expected-result: |
       При нажатии галочки высвечиваются товары в наличии, при снятии галочки высвечиваются либо товары не в наличии, либо ничего
-    actual-result: |
+  actual-result: |
       При снятии галочки остались же товары, которые были в наличии до этого  
       Отображено на screen9.png и screen10.png
 
 - summary: |
       При фильтрации товара по цене пропадают кнопки перелистывания страниц каталога
-    environment: |
+  environment: |
       Yandex Browser 24.4.1.899 (64-bit)
       OC Windows 10 22H2
-    steps-to-reproduce: |
+  steps-to-reproduce: |
       1. Установить ценовой диапазон от 2 до 6000
-    expected-result: |
+  expected-result: |
       При указанном ценовом диапазоне остаётся возможность перелистывать страницы каталога
-    actual-result: |
+  actual-result: |
       При установке ценового диапазона пропали кнопки для перелистывания страниц каталога
            
