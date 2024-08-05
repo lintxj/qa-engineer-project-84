@@ -102,18 +102,6 @@
     Отображено на sсreen2.png
 
 - summary: |
-    Сайт не открывается через эмурятор браузера Safari 
-  environment: |
-    Yandex Browser 24.4.1.899 (64-bit)
-    OC Windows 10 22H2
-  steps-to-reproduce: |
-    1. На сайте https://www.browserstack.com/ выбираем проверку ссылки магазина через браузер Safari
-  expected-result: |
-    При открытии сайта в браузере Safari всё отображается и работает корректно
-  actual-result: |
-    В браузере Safari сайт не загрузился
-
-- summary: |
     Сайт не подстраивается под некоторые разрешения 
   environment: |
     Yandex Browser 24.4.1.899 (64-bit)
